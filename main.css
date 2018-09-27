@@ -4,13 +4,14 @@ html, body {
     background-color: cornsilk;
 }
 
-
-
 .lead {
     text-align: left;
     font-size: medium;
     word-wrap: break-word;
 }
+
+//-------life section---------//
+
 
 
 // Extra small devices (portrait phones, less than 576px)
