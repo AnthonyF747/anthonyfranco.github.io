@@ -30,26 +30,39 @@
 
     <body>
     
-       <!--Slide show-->
-        <div id="slides" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#slides" data-slide-to="0" class="active"></li>
-                <li data-target="#slides" data-slide-to="1"></li>
-                <li data-target="#slides" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="luther" src="img/luth.jpg" alt="Luther">
+        <!--Navigation bar-->
+        <nav class="navbar navbar-expand-md navbar-light bg-dark sticky-top">
+        <div class="navbar-brand">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav">
+                    <li class="active"><a class="nav-link" href="index.html">Home</a></li>
+                    <li><a class="nav-link" href="life.html">Life</a></li>                   
+                    <li><a class="nav-link" href="#">About</a></li>                  <!--change the link to about.html-->
+            </ul>
+        </div>
+        </div>
+        </nav>
+    
+       <!--Card set up-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-4">
+                    <div class="card">
+                        <img class="card-img-top" src="img/luther.jpg" alt="Picture of Luther">
+                    </div>
                 </div>
-                <div class="carousel-item active">
-                    <img class="logan" src="img/logan.jpg" alt="Logan">
+                <div class="col-4">
+                    <div class="card">
+                        <img class="card-img-top" src="img/lulo.jpg" alt="Picture of Logan">
+                    </div>
                 </div>
-                <div class="carousel-item active">
-                    <img class="levi" src="img/pevi.jpg" alt="Levi">
+                <div class="col-4">
+                    <div class="card">
+                        <img class="card-img-top" src="img/pevi.jpg" alt="Picture of Levi">
+                    </div>
                 </div>
             </div>
         </div>
-    
     </body>
 
 </html>
