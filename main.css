@@ -12,6 +12,10 @@ html, body {
 
 //-------life section---------//
 
+.carousel-inner img {
+    height: 100%;
+    width: 100%;
+}
 
 
 // Extra small devices (portrait phones, less than 576px)
