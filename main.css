@@ -10,6 +10,10 @@ html, body {
     word-wrap: break-word;
 }
 
+.jumbotron {
+    background-color: cadetblue;
+}
+
 //-------life section---------//
 
 .carousel-inner img {
