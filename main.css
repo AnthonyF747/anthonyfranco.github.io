@@ -23,7 +23,7 @@ html, body {
 
 .footer {
     background-color: gray !important;
-    height: 2rem;
+    padding-bottom: 0px;
 }
 
 
