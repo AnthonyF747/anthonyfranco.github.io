@@ -23,7 +23,12 @@ html, body {
 
 .footer {
     background-color: gray !important;
-    padding-bottom: 0px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 1rem;
+    
 }
 
 
