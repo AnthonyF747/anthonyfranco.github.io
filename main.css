@@ -22,16 +22,11 @@ html, body {
 }
 
 .footer {
-    background-color: gray !important;
-    
+    background-color: gray !important;  
 }
 
-
-//-------life section---------//
-
-.carousel-inner img {
-    height: 100%;
-    width: 100%;
+.navbar.navbar-expand-md.navbar-light.bg-dark.sticky-top {
+    
 }
 
 
